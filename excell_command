@@ -1,0 +1,3 @@
+Excell Command
+
+=XLOOKUP(A2, Sheet2!A:A, Sheet2!B:B, "Not Found")
