@@ -2,7 +2,7 @@
 #SBATCH --job-name compleasm
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=8
-#SBATCH --mem=20gb
+#SBATCH --mem=50gb
 #SBATCH --time=5:00:00
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=jhoffman1@amnh.org
