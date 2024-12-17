@@ -14,5 +14,7 @@ GENOME="/path/to/genome.fasta"
 OUT="/path/to/outdirectory"
 LINEAGE="busco_lineage" #i.e. sauropsida
 
-compleasm run -a $GENOME -o $OUT -t $SLURM_NTASKS_PER_NODE -l $LINEAGE
+echo $GENOME
 
+compleasm run -a $GENOME -o $OUT -t $SLURM_NTASKS_PER_NODE -l $LINEAGE
+done
