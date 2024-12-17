@@ -17,4 +17,3 @@ LINEAGE="busco_lineage" #i.e. sauropsida
 echo $GENOME
 
 compleasm run -a $GENOME -o $OUT -t $SLURM_NTASKS_PER_NODE -l $LINEAGE
-done
