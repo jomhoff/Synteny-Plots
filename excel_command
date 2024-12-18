@@ -1,3 +1,3 @@
-Excel Command
+This is the excel command I used to match the Busco IDs and combine the full_table_busco_format.tsv of two species
 
 =XLOOKUP(A2, Sheet2!A:A, Sheet2!B:B, "Not Found")
